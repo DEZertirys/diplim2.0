@@ -21,5 +21,15 @@
 
     <style name="themeTitleBackground">
         <item name="android:layout_height">wrap_content</item>
+
+
+    </style>
+
+    <style name="Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <item name="colorPrimary">#966BD3</item>
+    <item name="colorPrimaryVariant">@color/purple_700</item>
+    <item name="colorOnPrimary">@color/white</item>
+    <item name="android:windowActionBar">false</item>
+    <item name="android:windowNoTitle">true</item>
     </style>
 </resources>

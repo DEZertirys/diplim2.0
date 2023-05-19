@@ -26,7 +26,7 @@ import java.util.*
 @Suppress("DEPRECATION")
 class NumberSucc : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        title = "Страница чекаПК"
+        title = "Страница чека"
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_number_succ)
 
@@ -63,7 +63,7 @@ class NumberSucc : AppCompatActivity() {
             val canvas = Canvas(screenshot)
             v.draw(canvas)
         } catch (e: Exception) {
-            Log.e("GFG", "Failed to capture screenshot because:" + e.message)
+            Log.e("GFG", "Не сохранилось(" + e.message)
         }
         return screenshot
     }
